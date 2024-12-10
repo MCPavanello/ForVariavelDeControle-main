@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<script>
+    /*
+    PROBLEMA: CALCULAR POPULAÇÃO
+    Considere que a população de uma cidade seja de 50000 habitantes, crescendo 1,5% ao ano. Apresente em tela a população prevista para um prazo de 5 anos e um prazo de 10 anos. Apresente os dados em tela.
+    */
+
+    //ENTRADA
+    let populacao = 50000;
+    for (let controle = 0; controle <= 5; controle++) {
+        populacao = populacao + 0.015 * populacao;
+        
+    }
+    let cincoAnos = populacao
+    for (let controle = 0; controle <= 5; controle++) {
+        populacao = populacao + 0.015 * populacao;
+        
+    }
+    document.write(`A populção após cinco anos será de ${cincoAnos.toFixed(2).replace(".",",")} e a populão após dez anos será de ${populacao.toFixed(2).replace(".",",")}.`)
+    //PROCESSAMENTO
+    
+
+    //SAÍDA
+
+</script>
